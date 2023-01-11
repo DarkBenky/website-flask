@@ -1,0 +1,26 @@
+.logo-img {
+	width: 15vmax;;
+}
+
+.nav-radius {
+	border-radius: 30px;
+}
+
+.img-large {
+	width: 30vmax;
+}
+
+
+.home-grid {
+	display: grid;
+	grid-gap: 1.5rem;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-span-col-2 {
+	grid-column: span 2;
+}
+
+.grid-span-row-2 {
+	grid-row: span 2;
+}
