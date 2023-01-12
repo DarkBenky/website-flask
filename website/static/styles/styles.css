@@ -35,6 +35,15 @@ body {
 	grid-template-columns: repeat(3, 1fr);
 }
 
+.grid-span-col-1 {
+	grid-column: span 1;
+}
+
+.grid-span-row-1 {
+	grid-row: span 1;
+}
+
+
 .grid-span-col-2 {
 	grid-column: span 2;
 }
@@ -63,6 +72,10 @@ body {
 	color : white;
 	flex: auto;
 	padding: 1rem;
+}
+
+.align-center {
+	text-align: center;
 }
 
 .paragraph {
@@ -99,31 +112,10 @@ body {
 	background-color: #4079ba;
 }
 
-.wrapper {
-	height: 100vh;
-	overflow-y: auto;
-    overflow-x: hidden;
-	perspective: 10px;
-}
-
-header {
-	position: relative;
+.container-grid-1 {
 	display: flex;
-	justify-content: center;
 	align-items: center;
-	height: 100%;
-	transform-style: preserve-3d;
-	z-index: -1;
+	text-align: center;
 }
 
-.background {
-	transform: translateZ(-10px) scale(1);
-}
 
-.background , .foreground {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	object-fit: cover;;
-	z-index: -1;
-}
